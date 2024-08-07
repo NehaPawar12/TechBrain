@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity2_1">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Android"
+        />
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Ktbtn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/card_1"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="55dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Kotlin" />
+        <TextView
+            android:id="@+id/firebtn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/card"
+            android:layout_toEndOf="@+id/Ktbtn"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Firebase" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/javabtn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/card_1"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="55dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Java" />
+        <TextView
+            android:id="@+id/Roombtn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/card"
+            android:layout_toEndOf="@+id/javabtn"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Room \n Database" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/reactbtn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/card_1"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="55dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="React" />
+        <TextView
+            android:id="@+id/swiftbtn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/card"
+            android:layout_toEndOf="@+id/reactbtn"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Swift" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
